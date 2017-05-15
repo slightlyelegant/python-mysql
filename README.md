@@ -1,7 +1,7 @@
 Python MySQL Script
 =======
 
-This package contains a python script that creates a connection to a MySQL Database, reads a csv file, 
+This is a python script that creates a connection to a MySQL Database, reads a csv file, 
 inserts the data from the CSV file, calculates a few variables from the data and then opens an HTML 
 report with the calculations. 
 
