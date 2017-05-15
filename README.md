@@ -41,18 +41,22 @@ How to set up the script
         '''
 
 
-4. If necessary, convert the datatypes of values in csv file to be sure your insert statement will work (default in a string). Find the following
-code:
+4. If necessary, convert the datatypes of each value in csv row to be sure your insert statement will work (default in a string). Find the following
+code and replace array with correct datatypes:
 
     ```
     #!!!!!important
         #convert strings from csv to integers/SQLdecimal
-        rows = [[int(row[0]), int(row[1]), decimal.Decimal(row[2])] for row in reader]
+        rows = [*[int(row[0]), int(row[1]), decimal.Decimal(row[2])]* for row in reader]
         
-    SAMPLE DATA to match above code
-    _______
+    Sample data to match above code
+    _______________________________
     
     2,3,25.7
+    3,45,34.9
+    234,345,456.56
+    34,456,487.9
+    
 
 
 
