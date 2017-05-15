@@ -58,6 +58,7 @@ code and replace array with correct datatypes:
     34,456,487.9
 
 
+
 How to run the script
 ------------- 
  1. Open command line, navigate to directory that contains the script
