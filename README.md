@@ -47,6 +47,11 @@ code:
     #!!!!!important
         #convert strings from csv to integers/SQLdecimal
         rows = [[int(row[0]), int(row[1]), decimal.Decimal(row[2])] for row in reader]
+        
+    SAMPLE DATA to match above code
+    _______
+    
+    2,3,25.7
 
 
 
