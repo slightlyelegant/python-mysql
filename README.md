@@ -42,12 +42,12 @@ How to set up the script
 
 
 4. If necessary, convert the datatypes of each value in csv row to be sure your insert statement will work (default in a string). Find the following
-code and replace array with correct datatypes:
+code in pop_db_processor.py and replace array with correct datatypes:
 
     ```
     #!!!!!important
         #convert strings from csv to integers/SQLdecimal
-        rows = [__[int(row[0]), int(row[1]), decimal.Decimal(row[2])]__ for row in reader]
+        rows = [[int(row[0]), int(row[1]), decimal.Decimal(row[2])] for row in reader]
         
     Sample data to match above code
     _______________________________
