@@ -47,7 +47,7 @@ code and replace array with correct datatypes:
     ```
     #!!!!!important
         #convert strings from csv to integers/SQLdecimal
-        rows = [**[int(row[0]), int(row[1]), decimal.Decimal(row[2])]** for row in reader]
+        rows = [__[int(row[0]), int(row[1]), decimal.Decimal(row[2])]__ for row in reader]
         
     Sample data to match above code
     _______________________________
