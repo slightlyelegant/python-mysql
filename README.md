@@ -56,8 +56,6 @@ code and replace array with correct datatypes:
     3,45,34.9
     234,345,456.56
     34,456,487.9
-    
-
 
 
 How to run the script
