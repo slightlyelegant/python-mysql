@@ -50,8 +50,6 @@ code:
 
 
 
-
-
 How to run the script
 ------------- 
  1. Open command line, navigate to directory that contains the script
