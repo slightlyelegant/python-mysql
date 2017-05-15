@@ -40,6 +40,7 @@ How to set up the script
             YOUR_SELECT_QUERY_HERE
         '''
 
+
 4. If necessary, convert the datatypes of values in csv file to be sure your insert statement will work (default in a string). Find the following
 code:
 
