@@ -39,7 +39,18 @@ How to set up the script
     query_select = '''
             YOUR_SELECT_QUERY_HERE
         '''
-        
+
+4. If necessary, convert the datatypes of values in csv file to be sure your insert statement will work (default in a string). Find the following
+code:
+
+    '''
+    #!!!!!important
+        #convert strings from csv to integers/SQLdecimal
+        rows = [[int(row[0]), int(row[1]), decimal.Decimal(row[2])] for row in reader]
+
+
+
+
 
 How to run the script
 ------------- 
