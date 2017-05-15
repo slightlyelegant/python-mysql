@@ -49,6 +49,7 @@ code:
         rows = [[int(row[0]), int(row[1]), decimal.Decimal(row[2])] for row in reader]
 
 
+
 How to run the script
 ------------- 
  1. Open command line, navigate to directory that contains the script
