@@ -1,4 +1,3 @@
-
 Python MySQL Script
 =======
 
@@ -18,11 +17,34 @@ Requirements
 
 
 
-Documentation
+How to set up the script
 -------------
- 1. Open config.ini file in a text editor and add your database connection configurations under the [database] section
+ 1. Down load python-mysql.zip and extract files
  
- 2. Open command line, navigate to script and run following
+ 2. Open config.ini in a text editor and add your database connection configurations under the [database] section
+ 
+ 3. Open pop_db_processor.py in a text editor, find the following lines and add your insert and select SQL queries:
+ 
+    ```
+    #############################################
+    
+    #queries for database
+
+    #############################################
+
+    query_insert = '''
+            YOUR_INSERT_QUERY_HERE
+        '''
+
+    query_select = '''
+            YOUR_SELECT_QUERY_HERE
+        '''
+        
+
+How to run the script
+------------- 
+ 1. Open command line, navigate to directory that contains the script
+ 2. Run one of the following command:
 
     `` ./pop_db_processor youfilenamehere.csv`` or ``python pop_db_processor YOURFILENAMEHERE.csv ``
 
