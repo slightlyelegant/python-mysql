@@ -75,9 +75,3 @@ MySQL Reference Manuals: http://dev.mysql.com/doc/
 
 MySQL client/server protocol:
 http://dev.mysql.com/doc/internals/en/client-server-protocol.html
-
-
-License
--------
-
-PyMySQL is released under the MIT License. See LICENSE for more information.
