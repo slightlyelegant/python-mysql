@@ -41,7 +41,7 @@ How to set up the script
         '''
 
 
-4. If the columns selected in your SQL insert statement are not strings, you will need convert the datatypes of each value in csv row to be sure your insert statement will work. Find the following
+4. If the values in your CSV file are not strings, you will need convert the datatypes of each value in csv row to be sure your SQL insert statement will work. Find the following
 code in pop_db_processor.py and replace array with correct datatypes:
 
     ```
