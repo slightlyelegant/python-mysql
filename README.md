@@ -19,7 +19,7 @@ Requirements
 
 How to set up the script
 -------------
- 1. Down load python-mysql.zip and extract files
+ 1. Download python-mysql.zip and extract files
  
  2. Open config.ini in a text editor and add your database connection configurations under the [database] section
  
