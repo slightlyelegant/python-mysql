@@ -9,8 +9,6 @@ report with the calculations.
 Requirements
 -------------
 
-* Python -- one of the following:
-
   - Python <= 3.6
   - Pure Python MySQL Client (PyMySQL)
   - MySQL Server <= MySQL 5.7
@@ -41,7 +39,7 @@ How to set up the script
         '''
 
 
-4. If the values in your CSV file are not strings, you will need convert the datatypes of each value in csv row to be sure your SQL insert statement will work. Find the following
+4. If the values in your csv files are strings, you can skipp this step -- If the values in your CSV file are not strings, you will need convert the datatypes of each value in csv row to be sure your SQL insert statement will work. Find the following
 code in pop_db_processor.py and replace array with correct datatypes:
 
     ```
