@@ -21,7 +21,7 @@ How to set up the script
  
  2. Open config.ini in a text editor and add your database connection configurations under the [database] section
  
- 3. Open pop_db_processor.py in a text editor, find the following lines and add your insert and select SQL queries:
+ 3. Open pop_db_processor.py in a text editor, find the following lines and add your insert and select SQL queries inbetween the quotes:
  
     ```
     #############################################
